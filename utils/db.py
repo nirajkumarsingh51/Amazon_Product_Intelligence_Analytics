@@ -10,7 +10,7 @@ import logging
 import re
 
 logger = logging.getLogger(__name__)
-DB_URL = "mysql+pymysql://root:pk252914@localhost:3306/amazon_cleaning_db"
+DB_URL = "mysql+pymysql://3KMTTGPF6pDgJLB.root:zTq8cIP0wlb50tD7@gateway01.ap-southeast-1.prod.alicloud.tidbcloud.com:4000/amazon_cleaning_db"
 
 # ── Price-cleaning SQL expression ─────────────────────────────────────────────
 # Strips "₹", "," and whitespace then casts to DECIMAL
